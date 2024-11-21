@@ -1,0 +1,39 @@
+# Python - игнорировать виртуальное окружение и другие нежелательные файлы
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.db
+*.sqlite3
+
+# PyCharm - исключить настройки IDE
+.idea/
+
+# Node.js - игнорировать зависимости и настройки
+node_modules/
+npm-debug.log
+yarn-debug.log
+yarn-error.log
+
+# React - игнорировать сборки и кэш
+build/
+dist/
+
+# Vercel - исключить настройки для Vercel
+.vercel/
+
+# MacOS - исключить специфические для macOS файлы
+.DS_Store
+
+# Windows - исключить специфические для Windows файлы
+Thumbs.db
+
+# Git - исключить файлы конфигурации Git
+.gitmodules
+
+# Логи
+*.log
+
+# Важные файлы, которые нужно исключить
+*.env
